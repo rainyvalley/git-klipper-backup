@@ -3,9 +3,6 @@ host = 0.0.0.0
 port = 7125
 max_upload_size = 1024
 
-[file_manager]
-enable_object_processing = False
-
 [authorization]
 cors_domains = 
 	https://my.mainsail.xyz
@@ -43,4 +40,7 @@ requirements = requirements.txt
 install_script = install.sh
 managed_services = 
 	moonraker-obico
+
+[file_manager]
+enable_object_processing = True
 
